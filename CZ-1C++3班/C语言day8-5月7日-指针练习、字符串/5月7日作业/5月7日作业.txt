@@ -1,0 +1,15 @@
+1、完成顺时针遍历的代码
+
+2、完成一个atof，字符串转浮点数
+
+3、完成一个strncasecmp，忽略大小写的比较前n个字符的比较函数
+
+4、完成一个strrstr，查找最后一个子串的位置
+
+5、输入一个英文句子，输出这句话中最长的单词有多少个字母。
+例如：	输入：This fat guy called C is very interesting
+		输出：11
+
+6、输入一个英文句子，按照单词逆序。
+例如：	输入：I love you so much
+		输出：much so you love I
