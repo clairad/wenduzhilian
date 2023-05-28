@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4、多文件项目", "..\4
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6、main传参", "..\6、main传参\6、main传参.vcxproj", "{F2078B5F-043C-4CF5-BB98-7C098D5E7ED8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5、迎春晚会", "..\5、迎春晚会\5、迎春晚会.vcxproj", "{A5CB37FA-68F2-4C68-9837-03B299EB8062}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{F2078B5F-043C-4CF5-BB98-7C098D5E7ED8}.Release|x64.Build.0 = Release|x64
 		{F2078B5F-043C-4CF5-BB98-7C098D5E7ED8}.Release|x86.ActiveCfg = Release|Win32
 		{F2078B5F-043C-4CF5-BB98-7C098D5E7ED8}.Release|x86.Build.0 = Release|Win32
+		{A5CB37FA-68F2-4C68-9837-03B299EB8062}.Debug|x64.ActiveCfg = Debug|x64
+		{A5CB37FA-68F2-4C68-9837-03B299EB8062}.Debug|x64.Build.0 = Debug|x64
+		{A5CB37FA-68F2-4C68-9837-03B299EB8062}.Debug|x86.ActiveCfg = Debug|Win32
+		{A5CB37FA-68F2-4C68-9837-03B299EB8062}.Debug|x86.Build.0 = Debug|Win32
+		{A5CB37FA-68F2-4C68-9837-03B299EB8062}.Release|x64.ActiveCfg = Release|x64
+		{A5CB37FA-68F2-4C68-9837-03B299EB8062}.Release|x64.Build.0 = Release|x64
+		{A5CB37FA-68F2-4C68-9837-03B299EB8062}.Release|x86.ActiveCfg = Release|Win32
+		{A5CB37FA-68F2-4C68-9837-03B299EB8062}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
