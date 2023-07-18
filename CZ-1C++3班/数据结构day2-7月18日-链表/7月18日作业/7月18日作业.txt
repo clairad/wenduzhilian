@@ -1,0 +1,13 @@
+1、倒数第K个节点
+https://www.nowcoder.com/practice/529d3ae5a407492994ad2a246518148a?tpId=13&&tqId=11167&rp=2&ru=/activity/oj&qru=/ta/coding-interviews/question-ranking
+2、相交链表
+https://leetcode.cn/problems/intersection-of-two-linked-lists/description/
+3-1、环形链表
+https://leetcode.cn/problems/linked-list-cycle/description/
+3-2、环形链表2
+https://leetcode.cn/problems/linked-list-cycle-ii/description/
+
+作业：
+1、整理笔记
+2、上面的题目（3题选做）
+3、回顾、复习今天的代码，不理解的地方加注释
