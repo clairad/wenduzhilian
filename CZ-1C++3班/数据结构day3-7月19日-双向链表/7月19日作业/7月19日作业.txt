@@ -1,0 +1,15 @@
+作业：
+复习完成笔记，并完成下列习题
+1、回文链表
+https://leetcode.cn/problems/aMhZSa/
+2、旋转链表
+https://leetcode.cn/problems/rotate-list/
+3、奇偶链表
+https://leetcode.cn/problems/odd-even-linked-list/
+4、括号匹配
+https://leetcode.cn/problems/valid-parentheses/
+5、逆波兰表达式
+https://leetcode.cn/problems/evaluate-reverse-polish-notation/
+选做、合并排序链表
+https://leetcode.cn/problems/vvXgSW/
+
