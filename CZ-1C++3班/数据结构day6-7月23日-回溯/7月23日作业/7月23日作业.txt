@@ -1,0 +1,7 @@
+https://leetcode.cn/problems/reverse-linked-list-ii/
+https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/
+https://leetcode.cn/problems/remove-duplicates-from-sorted-list/
+
+选做：
+1、请设计一个函数，用来判断在一个矩阵中是否存在一条包含某字符串所有字符的路径。路径可以从矩阵中的任意一个格子开始，每一步可以在矩阵中向左，向右，向上，向下移动一个格子。输入矩阵的长、宽，然后输入矩阵和字符串，输出YES或NO
+2、将8皇后推广成N皇后。
