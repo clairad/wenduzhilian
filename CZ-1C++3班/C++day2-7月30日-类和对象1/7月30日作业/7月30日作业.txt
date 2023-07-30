@@ -1,0 +1,14 @@
+二选一：
+完成日期类，并完成以下操作：
+1、日期类的减去一个天数
+2、两个日期相减
+3、用年份和当年第几天构造一个年月日
+
+实现一个斗地主类，可以随机生成牌堆并给三个玩家提供初始手牌。
+
+
+
+牛客网题目链接：
+1、https://www.nowcoder.com/practice/eebb2983b7bf40408a1360efb33f9e5d
+2、https://www.nowcoder.com/practice/ccb7383c76fc48d2bbc27a2a6319631c
+3、https://www.nowcoder.com/practice/b1f7a77416194fd3abd63737cdfcf82b
