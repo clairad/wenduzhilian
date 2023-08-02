@@ -13,6 +13,8 @@ int main()
 
 	Cpang::String d = cs2 + cst;
 
-	cout << d + c + "98567" + cs2 + "77oopp" << endl;
+	//cout << d + c + "98567" + cs2 + "77oopp" << endl;
+	//puts((const char*)cst);
+	cout << cst.substr(cst.find('f')) << endl;
 	return 0;
 }

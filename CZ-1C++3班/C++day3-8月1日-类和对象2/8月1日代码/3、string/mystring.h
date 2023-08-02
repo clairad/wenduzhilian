@@ -194,6 +194,68 @@ public:
 		res += String(str);
 		return res;
 	}
+
+	const char* c_str()
+	{
+		check_capacity();
+		m_val[m_size] = 0;
+		return m_val;
+	}
+
+	operator const char* ()
+	{
+		check_capacity();
+		m_val[m_size] = 0;
+		return m_val;
+	}
+
+	int find(char ch, int pos = 0)
+	{
+		const char* tmp = strchr(c_str() + pos, ch);
+		if (tmp)
+		{
+			return tmp - m_val;
+		}
+		return -1;
+	}
+
+	int find(const char* str, int pos = 0)
+	{
+		const char* tmp = strstr(c_str() + pos, str);
+		if (tmp)
+		{
+			return tmp - m_val;
+		}
+		return -1;
+	}
+
+	int rfind(char ch, int pos = 0)
+	{
+		int i;
+		for (i = pos - 1; i >= 0; i--)
+		{
+			if (m_val[i] == ch)
+			{
+				return i;
+			}
+		}
+		return -1;
+	}
+
+	String substr(int pos, int n = -1) const
+	{
+		if (n < 0)
+		{
+			n = size() - pos;
+		}
+		String res(n);
+		int i;
+		for (i = 0; i < n; i++)
+		{
+			res.m_val[i] = m_val[pos + i];
+		}
+		return res;
+	}
 };
 
 String operator+(const char* str, const String &o)

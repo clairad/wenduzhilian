@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day3-8月1日-类和对象2\8月1日代码\3、string\mystring.h(51,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day3-8月1日-类和对象2\8月1日代码\3、string\mystring.h(152,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day3-8月1日-类和对象2\8月1日代码\3、string\mystring.h(217,15): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day3-8月1日-类和对象2\8月1日代码\3、string\mystring.h(227,15): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  3、string.vcxproj -> D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day3-8月1日-类和对象2\8月1日代码\C++day3-8月1日-类和对象2\x64\Debug\3、string.exe
