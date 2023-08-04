@@ -1,0 +1,14 @@
+﻿  main.cpp
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day4-8月2日-模板\8月2日代码\2、模板类\array.hpp(21,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day4-8月2日-模板\8月2日代码\2、模板类\array.hpp(20): message : 在编译 类 模板 成员函数“Array<int,10>::Array(std::initializer_list<T>)”时
+          with
+          [
+              T=int
+          ]
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day4-8月2日-模板\8月2日代码\2、模板类\main.cpp(30): message : 查看对正在编译的函数 模板 实例化“Array<int,10>::Array(std::initializer_list<T>)”的引用
+          with
+          [
+              T=int
+          ]
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day4-8月2日-模板\8月2日代码\2、模板类\main.cpp(30): message : 查看对正在编译的 类 模板 实例化“Array<int,10>”的引用
+  2、模板类.vcxproj -> D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day4-8月2日-模板\8月2日代码\C++day4-8月2日-模板\x64\Debug\2、模板类.exe

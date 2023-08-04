@@ -1,6 +1,7 @@
 #include <iostream>
+#include "array.hpp"
 using namespace std;
-
+/*
 template <typename T = int>
 class Test
 {
@@ -15,15 +16,24 @@ public:
 template<typename T>
 T& Test<T>::getA()
 {
-	// TODO: 在此处插入 return 语句
+	return a;
+}
+*/
+
+bool cdt(const int& n)
+{
+	return n >= 5 && n <= 8;
 }
 
 int main()
 {
-	Test<float> t(6.8);
-	Test<> a;
+	Array<int, 10> ai{1,2,3,4,5,6,7,8,9,10};
 
-	cout << t.getA();
+	ai.insert(5, 11);
+	ai.erase(3, 100);
+	ai.lRound(2);
+	cout << ai << endl;
+	cout << count_if((const int *)ai, 10, cdt);
 	return 0;
 }
 
