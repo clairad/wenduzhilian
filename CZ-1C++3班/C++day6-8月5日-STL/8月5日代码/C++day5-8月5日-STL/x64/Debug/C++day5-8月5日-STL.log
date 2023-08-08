@@ -1,0 +1,15 @@
+﻿  main.cpp
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day6-8月5日-STL\8月5日代码\C++day5-8月5日-STL\String.hpp(191,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day6-8月5日-STL\8月5日代码\C++day5-8月5日-STL\String.hpp(198,12): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day6-8月5日-STL\8月5日代码\C++day5-8月5日-STL\String.hpp(199,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day6-8月5日-STL\8月5日代码\C++day5-8月5日-STL\String.hpp(205,20): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day6-8月5日-STL\8月5日代码\C++day5-8月5日-STL\String.hpp(206,16): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day6-8月5日-STL\8月5日代码\C++day5-8月5日-STL\String.hpp(232,12): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day6-8月5日-STL\8月5日代码\C++day5-8月5日-STL\String.hpp(233,14): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day6-8月5日-STL\8月5日代码\C++day5-8月5日-STL\String.hpp(245,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day6-8月5日-STL\8月5日代码\C++day5-8月5日-STL\String.hpp(266,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day6-8月5日-STL\8月5日代码\C++day5-8月5日-STL\String.hpp(367,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day6-8月5日-STL\8月5日代码\C++day5-8月5日-STL\String.hpp(432,16): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day6-8月5日-STL\8月5日代码\C++day5-8月5日-STL\String.hpp(442,16): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day6-8月5日-STL\8月5日代码\C++day5-8月5日-STL\main.cpp(72,6): warning C4101: “i”: 未引用的局部变量
+  C++day5-8月5日-STL.vcxproj -> D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++day6-8月5日-STL\8月5日代码\C++day5-8月5日-STL\x64\Debug\C++day5-8月5日-STL.exe
