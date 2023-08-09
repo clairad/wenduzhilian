@@ -8,7 +8,7 @@ using namespace std;
 //引用只可以接左值，const引用才可以接右值
 //[] * -> .  C++中()在返回引用的时候可以做左值
 
-int main()
+int main1()
 {
 	Vector<Vector<int> > vvi(5, Vector<int>(5)); //留一个空格
 
@@ -45,7 +45,7 @@ int main()
 }
 
 
-int vectortest()
+int main()
 {
 	Cpang::Vector<int> vi(14); //{7, 4, 1, 8, 5, 2, 9, 6, 3, 'A'};
 
@@ -62,8 +62,8 @@ int vectortest()
 
 	Cpang::Vector<int> vi2(vi.begin() + 3, vi.begin() + 7);
 	vi.swap(vi2);
-	vi.insert(vi.begin() + 1, 20, 17);
-	vi2.earse(vi2.begin() + 3);
+	vi.insert(vi.begin() + 1, vi.begin() + 2, vi.begin() + 4);
+	vi2.earse(vi2.begin() + 3, vi2.begin() + 10);
 	for (auto& e : vi)
 	{
 		cout << e << ' ';

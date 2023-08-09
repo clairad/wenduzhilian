@@ -1,0 +1,13 @@
+昨天作业：
+
+1、整理笔记
+2、完成vector
+3、力扣题目（选择C++，用vector完成）
+tip：系统库中的vector只需要#include<vector>即可使用，方法等同于自己实现的
+(1a)https://leetcode.cn/problems/single-number/
+(1b)https://leetcode.cn/problems/single-number-ii/
+(2)https://leetcode-cn.com/problems/pascals-triangle/
+(3)https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
+
+1、继续完成昨天作业。
+2、完成list容器

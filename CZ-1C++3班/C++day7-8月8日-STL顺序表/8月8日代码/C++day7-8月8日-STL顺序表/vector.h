@@ -57,13 +57,13 @@ namespace Cpang
 			}
 		}
 
-		Vector(std::initializer_list<T> it)
+		Vector(std::initializer_list<T> li)
 		{
-			int cap = get_capacity(it.size());
+			int cap = get_capacity(li.size());
 			_start = new T[cap];
 			_finish = _start;
 			_end_of_storage = _start + cap;
-			for (auto& e : it)
+			for (auto& e : li)
 			{
 				push_back(e);
 			}
@@ -214,6 +214,28 @@ namespace Cpang
 			return _start + len;
 		}
 
+		iterator insert(iterator pos, iterator s, iterator e)
+		{
+			int len = e - s;
+			int ipos = pos - _start;
+			int ist, ied;
+			Vector<T> tmp(s, e);
+			_finish += len;
+			check_capacity();
+			pos = _start + ipos;
+			int i;
+			for (i = size() - 1; i >= ipos + len; i--)
+			{
+				_start[i] = _start[i - len];
+			}
+
+			for (i = ipos; i < ipos + tmp.size(); i++)
+			{
+				_start[i] = tmp[i - ipos];
+			}
+			return pos;
+		}
+
 		iterator earse(iterator pos)
 		{
 			int i;
@@ -223,6 +245,18 @@ namespace Cpang
 			}
 			_finish--;
 			return pos;
+		}
+
+		iterator earse(iterator s, iterator e)
+		{
+			int len = e - s;
+			int i;
+			for (i = s - _start; i < size() - len; i++)
+			{
+				_start[i] = _start[i + len];
+			}
+			_finish -= len;
+			return s;
 		}
 
 		Vector<T>& operator=(const Vector<T>& o)
