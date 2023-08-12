@@ -1,0 +1,4 @@
+1、字符串解码
+https://leetcode.cn/problems/decode-string/
+2、找出输掉0场或1场比赛的玩家
+https://leetcode.cn/problems/find-players-with-zero-or-one-losses/

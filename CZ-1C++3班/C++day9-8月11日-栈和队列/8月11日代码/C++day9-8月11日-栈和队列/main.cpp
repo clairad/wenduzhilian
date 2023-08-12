@@ -27,7 +27,7 @@ public:
 
 ostream& operator<<(ostream& os, const Test& v)
 {
-	cout << v._a << ' ' << v._b << ' ' << v._c;
+	os << v._a << ' ' << v._b << ' ' << v._c;
 	return os;
 }
 
