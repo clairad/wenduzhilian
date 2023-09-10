@@ -42,6 +42,10 @@ namespace Cpang {
 			pos++;
 
 			cur->lChild = makeTree(src, sign);
+			/*if (cur->lChild)
+			{
+				cur->lChild->Parent = cur;
+			}*/
 			cur->rChild = makeTree(src, sign);
 
 			return cur;
