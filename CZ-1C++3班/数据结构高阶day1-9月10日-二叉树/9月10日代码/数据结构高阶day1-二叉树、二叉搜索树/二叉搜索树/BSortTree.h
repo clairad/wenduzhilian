@@ -170,10 +170,40 @@ namespace Cpang
 				cur->Parent->Parent = pos;
 			}
 		}
+
+		void setLeftRight()
+		{
+			SetNode<T>* cur;
+			if (_head->Parent == nullptr)
+			{
+				_head->rChild = _head->lChild = nullptr;
+				return;
+			}
+			for (cur = _head->Parent; cur->lChild; cur = cur->lChild);
+			_head->lChild = cur;
+			for (cur = _head->Parent; cur->rChild; cur = cur->rChild);
+			_head->rChild = cur;
+		}
+
+		void destroy(SetNode<T>* cur)
+		{
+			if (cur)
+			{
+				destroy(cur->lChild);
+				destroy(cur->rChild);
+				delete cur;
+			}
+		}
 	public:
 		Set() : _size(0)
 		{
 			_head = new SetNode<T>;
+		}
+
+		~Set()
+		{
+			destroy(_head->Parent);
+			delete _head;
 		}
 
 		iterator begin() const
@@ -202,10 +232,15 @@ namespace Cpang
 				}
 				else
 				{
-					return cur;
+					return iterator(cur);
 				}
 			}
 			return end();
+		}
+
+		int count(const T& o)
+		{
+			return find(o) != end();
 		}
 
 		bool insert(const T& o)
@@ -271,7 +306,6 @@ namespace Cpang
 				if (cur->lChild == nullptr && cur->rChild == nullptr)
 				{
 					deleteOneChildsNode(cur, nullptr);
-					delete cur;
 				}
 				else if (cur->lChild && cur->rChild)
 				{
@@ -290,27 +324,41 @@ namespace Cpang
 						cur->rChild->Parent = nxt;
 					}
 					deleteOneChildsNode(cur, nxt);
-					delete cur;
 				}
 				else if (cur->lChild)
 				{
 					cur->lChild->Parent = cur->Parent;
 					deleteOneChildsNode(cur, cur->lChild);
-					delete cur;
 				}
 				else
 				{
 					cur->rChild->Parent = cur->Parent;
 					deleteOneChildsNode(cur, cur->rChild);
-					delete cur;
 				}
+				delete cur;
+				setLeftRight();
 				_size--;
 				return true;
 			}
 			return false;
 		}
+
+		size_t size()
+		{
+			return _size;
+		}
+
+		bool empty()
+		{
+			return _head->Parent == nullptr;
+		}
+
+		void clear()
+		{
+			destroy(_head->Parent);
+			_head->Parent = _head->rChild = _head->lChild = nullptr;
+			_size = 0;
+		}
 	};
-
-
 
 };
