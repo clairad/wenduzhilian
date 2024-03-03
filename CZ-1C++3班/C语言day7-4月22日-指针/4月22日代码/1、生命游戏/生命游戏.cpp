@@ -98,9 +98,9 @@ int main()
     while(1)
     {
 	    int i, j, tmp;
-	    for(i = 1; i <= 150; i++)
+	    for(i = 1; i <= 199; i++)
 	    {
-	    	for(j = 1; j <= 150; j++)
+	    	for(j = 1; j <= 199; j++)
 	    	{
 	    		tmp = num(i, j);
 	    		if(tmp == 3)
@@ -127,10 +127,11 @@ int main()
 		} 
 		
 		SetConsoleCursorPosition(hOut, w);
+		//SetCursorPos(w.X, w.Y);
 		SetConsoleCursorInfo(hOut, &cursorInfo);
-		for(i = 1; i <= 120; i++)
+		for(i = 1; i <= 175; i++)
 		{
-			for(j = 1; j <= 120; j++)
+			for(j = 1; j <= 175; j++)
 	    	{
 	    		if(map[i][j])
 	    		{
