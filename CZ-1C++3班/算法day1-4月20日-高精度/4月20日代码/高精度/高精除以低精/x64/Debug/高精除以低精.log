@@ -1,0 +1,3 @@
+﻿  main.c
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\算法day1-4月20日-高精度\4月20日代码\高精度\高精除以低精\main.c(13,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  高精除以低精.vcxproj -> D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\算法day1-4月20日-高精度\4月20日代码\高精度\x64\Debug\高精除以低精.exe

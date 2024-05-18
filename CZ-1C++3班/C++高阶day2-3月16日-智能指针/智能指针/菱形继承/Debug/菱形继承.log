@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++高阶day2-3月16日-智能指针\智能指针\菱形继承\main.cpp(79,4): error C2385: 对“printBase”的访问不明确
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++高阶day2-3月16日-智能指针\智能指针\菱形继承\main.cpp(79,4): message : 可以是基 "Base" 中的 "printBase"
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\C++高阶day2-3月16日-智能指针\智能指针\菱形继承\main.cpp(79,4): message : 也可以是基 "Base" 中的 "printBase"

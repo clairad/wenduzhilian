@@ -1,0 +1,10 @@
+﻿  main.c
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\算法day1-4月20日-高精度\4月20日代码\高精度\高精度\main.c(11,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\算法day1-4月20日-高精度\4月20日代码\高精度\高精度\main.c(28,16): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\算法day1-4月20日-高精度\4月20日代码\高精度\高精度\main.c(36,26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\算法day1-4月20日-高精度\4月20日代码\高精度\高精度\main.c(62,18): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\算法day1-4月20日-高精度\4月20日代码\高精度\高精度\main.c(105,18): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\算法day1-4月20日-高精度\4月20日代码\高精度\高精度\main.c(104,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\算法day1-4月20日-高精度\4月20日代码\高精度\高精度\main.c(155,17): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\算法day1-4月20日-高精度\4月20日代码\高精度\高精度\main.c(177,17): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  高精度.vcxproj -> D:\BaiduSyncdisk\文都工作\2、线下课资料备案\C++班级git仓库\CZ-1C++3班\算法day1-4月20日-高精度\4月20日代码\高精度\x64\Debug\高精度.exe
