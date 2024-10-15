@@ -16,6 +16,13 @@ void init()
 	map[3][3] = 1;
 }
 
+void initline()
+{
+	map[1][2] = 1;
+	map[2][2] = 1;
+	map[3][2] = 1;
+}
+
 void initgun()
 {
 	map[6][1] = 1;
@@ -118,9 +125,9 @@ int main()
 			}
 		} 
 		
-		for(i = 1; i <= 150; i++)
+		for(i = 1; i <= 199; i++)
 	    {
-	    	for(j = 1; j <= 150; j++)
+	    	for(j = 1; j <= 199; j++)
 	    	{
 	    		map[i][j] = maptmp[i][j];
 			}
@@ -129,9 +136,9 @@ int main()
 		SetConsoleCursorPosition(hOut, w);
 		//SetCursorPos(w.X, w.Y);
 		SetConsoleCursorInfo(hOut, &cursorInfo);
-		for(i = 1; i <= 175; i++)
+		for(i = 1; i <= 150; i++)
 		{
-			for(j = 1; j <= 175; j++)
+			for(j = 1; j <= 150; j++)
 	    	{
 	    		if(map[i][j])
 	    		{

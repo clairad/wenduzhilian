@@ -9,6 +9,7 @@ int count;
 void printRes()
 {
 	int i, j;
+	
 	for (i = 0; i < 8; i++)
 	{
 		for (j = 0; j < 8; j++)
@@ -32,6 +33,7 @@ int eightQueen(int x)
 	if (x == 8)
 	{
 		count++;
+		printf("%d:\n", count); 
 		printRes();
 		return count;
 	}
